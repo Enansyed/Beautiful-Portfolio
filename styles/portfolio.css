@@ -10,6 +10,19 @@ nav {
     margin: 0 200px;
 }
 
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+
 .text-primary {
     color: #FD6E0A;
 }
@@ -59,11 +72,11 @@ nav a {
     justify-content: space-between;
 }
 
-.banner-content{
+.banner-content {
     max-width: 600px;
 }
 
-.banner-description{
+.banner-description {
     margin-bottom: 20px;
 }
 
@@ -78,9 +91,46 @@ nav a {
     margin-bottom: 0;
 }
 
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 .banner-title {
     font-size: 85px;
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 20px;
+}
+
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-title {
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400px
+}
+
+.info-description {
+    color:  #474747;
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700px
 }
