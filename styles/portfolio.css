@@ -209,6 +209,9 @@ footer {
 .footer-column {
     width: 50%;
 }
+.footer-column a{
+    margin-right: 24px;
+}
 
 .contact input[type="text"], .contact input[type="email"],
 textarea {
